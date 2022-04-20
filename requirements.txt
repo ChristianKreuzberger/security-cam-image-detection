@@ -1,0 +1,6 @@
+# make sure you run "sh setup.sh", which includes installing this requirements.txt file
+argparse
+numpy>=1.20.0  # To ensure compatibility with OpenCV on Raspberry Pi.
+opencv-python~=4.5.3.56
+tflite-runtime>=2.7.0
+tflite-support>=0.3.1
